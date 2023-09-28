@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    // border: 1px solid red;
+}
+
+.header
+{
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    width: 100%;
+    background: #333;
+    border-bottom: 1px solid #444;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 21%;
+    height: 100%;
+}
+.logodiv
+{
+    width: 57%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-right: 1px solid #444;
+    >img {
+    height: 30px;
+    width: auto;
+    };
+}
+.meal
+{
+    width: 43%;
+    height: 100%;
+    display: flex;
+    color: #9B9B9B;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 7px;
+    >svg
+    {
+        width: 40%;
+        font-size: 12px;
+        
+    }
+    >.hp{
+        width: 70%;
+        font-size: 15px;
+        
+    }
+}
+.icon{
+
+    width: 22%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.desk, .tab, .mobile, .cart, .cross
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    border-left: 1px solid #444;
+    color: #9B9B9B;
+    font-size: 24px;
+    cursor: pointer;
+}
+.cart
+{
+    background-color: #7AC64D;
+    color: white;
+}
+.desk:hover, .tab:hover, .mobile:hover, .cart:hover, .cross:hover
+{
+    background-color: #222;
+    color: white;
+
+}
