@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    ::-webkit-scrollbar
+    {
+        display: none;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+.header
+{
+    background-color: black;
+    height: 60px;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    >img 
+    {
+        height: 90%;
+        cursor: pointer;
+    }
+    >div{
+       width: 100%;
+       margin-left: 4vmax;
+       >a{
+        text-decoration: none;
+       color: white;
+       margin: 1.5vmax;
+       font-size: 14px;
+       font-weight: 300;
+       }
+    }
+    >svg
+    {
+        color: white;
+        font-size: 1.8rem;
+        cursor: pointer;
+        :hover{
+            color: rgb(175, 174, 174);
+        }
+    }
+}
+
+.movies
+{
+    background-color: aqua;
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tv
+{
+    background-color: rgb(87, 138, 138);
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recently
+{
+    background-color: rgb(1, 48, 48);
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list
+{
+    background-color: rgb(199, 243, 243);
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
