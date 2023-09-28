@@ -1,0 +1,104 @@
+body
+{
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+
+.todoheader
+{
+  height: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  background-color: rgb(0, 0, 253);
+}
+.todoheader > img
+{
+  height: 35px;
+  margin-bottom: 3px;
+  width: 40px;
+}
+.todohome
+{
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  background-color: rgb(230, 209, 182);
+  box-sizing: border-box;
+  padding: 4vmax 10vmax;
+}
+.todohome > form
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.todohome > form > input, textarea, button
+{
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+.todohome button
+{
+  background-color: rgb(29, 28, 28);
+  cursor: pointer;
+  color: white;
+  border: 0;
+}
+.todohome button:hover
+{
+  background-color: rgb(71, 61, 61);
+}
+
+.todohome> h1
+{
+  margin: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+.todotask
+{
+margin: 20px 0;
+ display: flex;
+ align-items: center;
+ background-color: rgb(247, 245, 242);
+ border-radius: 5px;
+ padding: 20px;
+}
+.todotask >div
+{
+  width: 100%;
+}
+.todotask  button
+{
+  height: 30px;
+  font-size: 1.6rem;
+  width:  30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  border-radius: 100%;
+}
+.todotask button:hover
+{
+  background-color: rgb(255, 0, 0);
+}
+.todotask > div > span
+{
+  color: rgb(73, 72, 72);
+}
+.todotask p
+{
+  margin-top: 0;
+  margin-bottom: 2px;
+}
